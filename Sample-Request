@@ -1,0 +1,17 @@
+GET /auth/realms/master/protocol/openid-connect/auth?client_id=<id>&redirect_uri=<ANY_REDIRECT_URL>&state=72526a4b-d5b6-4424-90db-cc0f7c2001a7&response_mode=fragment&response_type=code&scope=openid&nonce=33e890be-c19f-463f-bd0e-7fdcd065c0fb HTTP/2
+Host: keycloak.<domain>
+Cookie: AUTH_SESSION_ID=2950f4c0-058b-41d3-baae-fae3ea0dd125.keycloak; AUTH_SESSION_ID_LEGACY=2950f4c0-058b-41d3-baae-fae3ea0dd125.keycloak; KEYCLOAK_IDENTITY=<value>;
+KEYCLOAK_IDENTITY_LEGACY=<value>; KEYCLOAK_SESSION=master/090a6cb3-c9b5-477c-b0f0-9e92d3e4e892/2950f4c0-058b-41d3-baae-fae3ea0dd125; KEYCLOAK_SESSION_LEGACY=master/090a6cb3-c9b5-477c-b0f0-9e92d3e4e892/2950f4c0-058b-41d3-baae-fae3ea0dd125
+Sec-Ch-Ua: "(Not(A:Brand";v="8", "Chromium";v="101"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Referer: <URL>
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
